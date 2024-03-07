@@ -1,3 +1,6 @@
+/**color palette that I'm thinking of
+BD8B9C, 653239, 012622, D2D8B3, 003B36**/
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -13,7 +16,7 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -22,5 +25,29 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+    background-color: #D2D8B3;
+    color: #003B36;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px dotted #653239;
+    text-align: center;
 }
