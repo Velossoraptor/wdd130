@@ -1,6 +1,6 @@
 /**color palette that I'm thinking of
 BD8B9C, 653239, 012622, D2D8B3, 003B36**/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,7 +49,7 @@ aside img {
     height: auto;
 }
 
-aside h2{
+aside h2 {
     position: absolute;
     top: 20px;
     left: 5em;
@@ -61,9 +61,9 @@ footer {
     text-align: center;
 }
 
-/*Class selectors*/
+/* Class selectors */
 
-.box{
+.box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,0.1);
     padding: 1rem;
