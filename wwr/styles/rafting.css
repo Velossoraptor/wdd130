@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #42858C;
+    --secondary-color:#293241;
+    --accent1-color:#CFEE9E;
+    --accent2-color:#F19953;
+
+    --heading-font:'Ojuju', sans-serif;
+    --paragraph-font:'Open Sans', sans-serif;
+
+    --nav-background-color:#CFEE9E;
+    --nav-link-color:#293241;
+    --nav-hover-link-color:#F19953;
+    --nav-hover-background-color:#42858C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    color: var(--secondary-color);
+}
+
+link {
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+}
+
+/* Class Selectors */
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    text-align: center;
+    width:100%;
+}
+
+/* A little confused, because I was able to get the h1 text aligned to adjust as the page grew and shrank but having trouble with
+this article, it stays in the same place no matter what... :/ */
+.hero article {
+    position: absolute;
+    align-content: center;
+    align-self: center;
+    max-width: 1000px;
+    top: 15rem;
+    left: 100px;
+    background-color: var(--accent2-color);
+}
+
+.hero article img {
+    float: right;
+    margin: 15px;
+    width: 150px;
+    height: auto;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
