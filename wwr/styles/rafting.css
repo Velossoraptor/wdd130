@@ -41,7 +41,7 @@ main {
 
 .hero h1 {
     position: absolute;
-    top: 10rem;
+    top: 25%;
     left: 0;
     background-color: rgba(0,0,0,.6);
     color: white;
@@ -51,13 +51,14 @@ main {
 
 /* A little confused, because I was able to get the h1 text aligned to adjust as the page grew and shrank but having trouble with
 this article, it stays in the same place no matter what... :/ */
+/*ok I think I fixed it (12/03/24) it gets a bit janky when you make the page really small, but for now it works. */
 .hero article {
     position: absolute;
     align-content: center;
     align-self: center;
-    max-width: 1000px;
-    top: 15rem;
-    left: 100px;
+    max-width: 80%;
+    top: 40%;
+    left: 10%;
     background-color: var(--accent2-color);
 }
 
