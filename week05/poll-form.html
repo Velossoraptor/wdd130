@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Talia M. Olsen | Poll Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | Talia Olsen | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+
+                    <label for="browser">What is your favourite browser?</label>
+                    <select id="browser" name="browser">
+                        <option selected value="chrome">Chrome</option>
+                        <option value="microsoftedge">Microsoft Edge</option>
+                        <option value="chrome">Google Chrome</option>
+                        <option value="firefox">Fire Fox</option>
+                        <option value="safari">Safari</option>
+                    </select>
+
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+
+                    <label for="feedback">List the places you have lived: </label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Kingston Ontario, Herriman Utah, Kitchener Ontario, Windsor Ontario"></textarea>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>©️2024 🦕 Talia Olsen 🦕 Canada</p>
+        </footer>
+    </body>
+</html>
