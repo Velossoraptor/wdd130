@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 1.2em;
+    color: black;
+    background: white;
+    width: 650px;
+}
+
+header {
+    margin: 0;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: rgb(92, 55, 29);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(67, 22, 22);
+    border-radius: .5rem;
+    background-color: rgb(248, 215, 250);
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(59, 94, 79);
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+select option {
+    color: grey;
+}
+
+button {
+    margin: 20px;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    margin: 0;
+    background-color: rgb(59, 130, 84);
+    color: rgb(151, 151, 151);
+    border: 2px solid black;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    font-size: .7em;
+    color:rgb(151, 151, 151);
+    border-top: 1px solid black;
+}
+
+/* Class Selectors */
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 10px;
+}

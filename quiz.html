@@ -13,31 +13,25 @@
         </header>
         <main>
             <form>
-                <fieldset>
-                    <legend>HTML</legend>
-
-                    <label for="q1">What is HTML used for?</label>
+                    <label for="q1">What does HTML stand for?</label>
                     <input type="text" id="q1" name="q1">
 
-                    <label for="q2">What version of HTML is used?</label>
-                    <select id="q2" name="q2">
-                        <option selected value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="5">5</option>
-                        <option value="7">7</option>
+                    <label for="q2">What does CSS stand for?</label>
+                    <textarea id="q2" name="q2" rows="3" placeholder="CSS stands for..."></textarea>
+
+                    <label for="q3">What is CSS used for?</label>
+                    <select id="q3" name="q3">
+                        <option selected value="1">object oriented programming</option>
+                        <option value="2">basic coding of websites</option>
+                        <option value="3">refined formatting of HTML sites</option>
+                        <option value="5">creating wireframes</option>
+                        <option value="7">gaming</option>
                     </select>
-                    <!--Make sure to check that the questions are named the right things and in the right places, Quiz Form in canvas-->
-                </fieldset>
-                <fieldset>
-                    <legend>CSS</legend>
+                    
+                    <label for="q4">What version of HTML is used currently?</label>
+                    <input type="number" id="q4" name="q4">
 
-                    <label for="question3">What is CSS used for?</label>
-                    <textarea id="question3" name="question3" rows="3" placeholder="CSS is used for..."></textarea>
-
-
-                    </label>
-                </fieldset>
+                    <button type="submit">Submit Quiz</button>
             </form>
         </main>
     </body>
