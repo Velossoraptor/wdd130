@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Contact Us | Talia Olsen</title>
+        <meta name="description" content="White water rafting website, contact us section">
+        <meta name="author" content="Talia Olsen">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.jpeg" alt="White Water Rapids logo featuring a raft and oars">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main> 
+            <h1>Contact Us</h1>
+            <!--Note: Lacks heading, causing a warning-->
+            <section class="address">
+                <p class="address-p1"><b>Our address:</b> 1234 Place street, ON Canada</p>
+                <p class="address-p2"><b>Our Email:</b> Whitewaterrafting@gmail.com</p>
+                <p class="address-p3"><b>Our Phone:</b> 123-456-7890</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d126.8637920945285!2d-0.17899129443292883!3d51.50221505673606!2m2!1f39.59!2f45!3m2!1i1024!2i768!4f35!5e1!3m2!1sen!2sca!4v1711553618067!5m2!1sen!2sca" 
+                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="address-iframe"></iframe>
+            </section>
+            
+            <section class="profiles">
+                <h2>Our Employees</h2>
+                <figure>
+                    <img src="images/john-doe-headshot.jpg" alt="John Doe, head of HR. Headshot of a smiling man.">
+                    <figcaption>John Doe - Head of HR</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/jane-doe-headshot.jfif" alt="Jane Doe, tour guide. Headshot of a smiling woman.">
+                    <figcaption>Jane Doe - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/indianna-jones-headshot.jpg" alt="Indianna Jones, route planner. Headshot of Indianna Jones.">
+                    <figcaption>Indianna Jones - Route Planner</figcaption>
+                </figure>
+            </section>
+
+            <section class="contact-form">
+                <h2>Contact Us Using Our Contact Form</h2>
+                <form>
+                    <label for="fullname">Your Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email">
+
+                    
+                    <div>
+                        <p>Your Purpose For Contacting Us</p>
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="general" name="purpose">
+                    
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="reservation" name="purpose">
+                  
+                        <label for="suggestion">Website Suggestion</label>
+                        <input type="radio" id="suggestion" name="purpose">
+                    </div>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="3" placeholder="Hi! I'm writing to..."></textarea>
+
+                    <div>
+                        <label for="subscribe">Subscribe Me to the Monthly Newsletter!</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+                    
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>©️2024 🦕 Rafting Site Plan 🦕 Talia Olsen 🦕 WDD130</p>
+            <a href="https://facebook.com"><img src="images/facebook.webp" alt="facebook logo"></a>
+            <a href="https://twitter.com"><img src="images/x.webp" alt="x logo"></a>
+            <a href="https://instagram.com"><img src="images/instagram.webp" alt="instagram logo"></a>
+        </footer>
+    </body>
+</html>
