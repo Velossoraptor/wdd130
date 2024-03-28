@@ -249,3 +249,10 @@ this article, it stays in the same place no matter what... :/ */
     background-color: var(--nav-hover-link-color);
     color: var(--nav-link-color);
 }
+
+.wireframe {
+    margin-left: auto;
+    padding: 10px;
+    text-decoration: none;
+    color: plum;
+}
