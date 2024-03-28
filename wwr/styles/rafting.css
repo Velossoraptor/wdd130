@@ -250,7 +250,7 @@ this article, it stays in the same place no matter what... :/ */
     color: var(--nav-link-color);
 }
 
-.wireframe {
+.wireframe, .wireframe a:visited {
     margin-left: auto;
     padding: 10px;
     text-decoration: none;
