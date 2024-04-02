@@ -175,6 +175,13 @@ this article, it stays in the same place no matter what... :/ */
     width: 150px;
     height: auto;
 }
+.adventure-section figure {
+    background-color: rgba(255, 255, 255, 0.5) /*maybe add a border?*/
+}
+.adventure-section figcaption {
+    text-align: center;
+    color: var(--nav-link-color);
+}
 
 .address {
     display: grid;
@@ -255,4 +262,23 @@ this article, it stays in the same place no matter what... :/ */
     padding: 10px;
     text-decoration: none;
     color: plum;
+}
+.article-trips {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    position:absolute;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    width: 1000px;
+}
+.article-trips p {
+    text-align:center;
+    font-size: 2rem;
+    padding: 0;
+    margin: 20px;
+}
+.article-trips a{
+    text-decoration: none;
+    color: var(--accent1-color);
 }
