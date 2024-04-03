@@ -306,3 +306,28 @@ this article, it stays in the same place no matter what... :/ */
     border: 1px solid var(--nav-link-color);
     padding: 10px;
 }
+
+.form-container {
+    display: grid;
+}
+
+.newsletter {
+    width: 500px;
+    margin: 20px;
+    padding: 1rem;
+    border: 1px solid rgb(67, 22, 22);
+    border-radius: .5rem;
+    background-color: var(--accent1-color);
+    display: grid;
+}
+.newsletter fieldset, caption {
+    border: 0px;
+    text-align: left;
+    color: var(--nav-link-color);
+}
+
+.trip-link {
+    width: 300px;
+    background-color: var(--accent2-color);
+    text-align: center;
+}
