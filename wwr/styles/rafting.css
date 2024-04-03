@@ -182,6 +182,15 @@ this article, it stays in the same place no matter what... :/ */
     text-align: center;
     color: var(--nav-link-color);
 }
+.adventure-trip-1 {
+    grid-area: 2/1/3/2;
+}
+.adventure-trip-2 {
+    grid-area: 2/3/3/4;
+}
+.adventure-trip-3 {
+    grid-area: 2/5/3/6;
+}
 
 .address {
     display: grid;
@@ -281,4 +290,19 @@ this article, it stays in the same place no matter what... :/ */
 .article-trips a{
     text-decoration: none;
     color: var(--accent1-color);
+}
+
+.trips {
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid var(--nav-link-color);
+    border-collapse: collapse;
+    font-family: var(--paragraph-font);
+}
+.trips thead {
+    background-color:rgba(161, 232, 139, 0.421);
+}
+.trips th,td {
+    border: 1px solid var(--nav-link-color);
+    padding: 10px;
 }
