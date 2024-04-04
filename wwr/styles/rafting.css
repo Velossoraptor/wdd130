@@ -160,7 +160,8 @@ this article, it stays in the same place no matter what... :/ */
 
 .adventure-section {
     display: grid;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     grid: 50px 1fr/ repeat(5, 1fr);
     justify-items: center;
     align-items: center;
@@ -170,13 +171,14 @@ this article, it stays in the same place no matter what... :/ */
 }
 .adventure-h2 {
     grid-area: 1/1/2/6;
+    font-size: 50px;
 }
 .adventure-img {
-    width: 150px;
+    width: 152px;
     height: auto;
 }
 .adventure-section figure {
-    background-color: rgba(255, 255, 255, 0.5) /*maybe add a border?*/
+    background-color: rgba(255, 255, 255, 0.5)
 }
 .adventure-section figcaption {
     text-align: center;
@@ -308,12 +310,25 @@ this article, it stays in the same place no matter what... :/ */
 }
 
 .form-container {
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+}
+.form-container button {
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    font-size: 20px;
+    font-family: var(--paragraph-font);
+    width: 100px;
+    height: 50px;
+}
+.form-container button:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 .newsletter {
-    width: 500px;
-    margin: 20px;
+    width: 600px;
+    margin: 20px auto;
     padding: 1rem;
     border: 1px solid rgb(67, 22, 22);
     border-radius: .5rem;
@@ -322,12 +337,45 @@ this article, it stays in the same place no matter what... :/ */
 }
 .newsletter fieldset, caption {
     border: 0px;
-    text-align: left;
+    text-align: center;
     color: var(--nav-link-color);
 }
 
 .trip-link {
-    width: 300px;
-    background-color: var(--accent2-color);
+    width: 400px;
+    background-color: #42858C;
     text-align: center;
+    margin: 20px auto;
+}
+.trip-link h2 {
+    color: #F19953;
+}
+
+.mission-section {
+    width: 100%;
+    display: grid;
+    grid: 50px 1fr/ 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #F19953;
+    padding: 20px;
+    justify-content: space-around;
+}
+.mission-section figure {
+    max-width: 400px;
+    text-align: center;
+}
+.mission-section img {
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+    border: 3px solid var(--nav-hover-background-color);
+    border-radius: 5px;
+}
+.mission-section h2 {
+    font-size:50px;
+    margin: 30px;
+}
+.mission-section figcaption {
+    font-size:20px;
 }
