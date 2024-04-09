@@ -313,18 +313,6 @@ this article, it stays in the same place no matter what... :/ */
     display: flex;
     justify-content: space-around;
 }
-.form-container button {
-    color: var(--nav-link-color);
-    background-color: var(--nav-background-color);
-    font-size: 20px;
-    font-family: var(--paragraph-font);
-    width: 100px;
-    height: 50px;
-}
-.form-container button:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
 
 .newsletter {
     width: 600px;
@@ -349,6 +337,20 @@ this article, it stays in the same place no matter what... :/ */
 }
 .trip-link h2 {
     color: #F19953;
+}
+.trips-button {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+    font-size: 20px;
+    font-family: var(--paragraph-font);
+    width: 100px;
+    height: 50px;
+    border: 1px solid var(--nav-link-color);
 }
 
 .mission-section {
@@ -379,3 +381,4 @@ this article, it stays in the same place no matter what... :/ */
 .mission-section figcaption {
     font-size:20px;
 }
+
